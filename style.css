@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/********* LOGO **********/
+header{
+    background-color: #EFE2FA;
+}
+section#logo{
+    float: left;    
+    margin-left: 5px;
+}
+section img{
+    width: 120px;
+    height: auto;
+}
+/*********** Menu  *************/
+nav{
+    height: auto;
+}
+.menu{
+    list-style: none;
+    padding:  12px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 25px 10px 25px;   
+}
+.menu li a{
+    text-decoration: none;
+    width: 130px;
+    height: auto;
+    padding: 7px;
+    display: block;   
+    border-radius: 30px;
+   
+    color:black;
+    font-size: 19px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+.menu li a:hover{
+    background-color: black;
+    color: beige;
+}
+/* ********* Principal titulo ************** */
+.conte1{
+    position: static;
+    text-align: center;      
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+.subconte1{
+    display: inline-block;
+    text-align: center;
+}
+#title{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+#woman{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    height: auto;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.subname{
+    font-size: 20px;
+}
+.comentario{
+    width: 160px;
+    height: 30px;
+    margin: 20px;
+    font-size:  13px;
+    outline: none;
+    border: 2px solid #ddd6f3;
+    transition: all 0.6 ease;
+}
+ .comentario:hover{
+    background-color:  black;
+    color: beige;
+}
+/************ footer **********/
+footer{
+    background-color: #BACBFE;
+    margin: 0;
+    padding: 0;
+}
+.suscribir{
+
+    color:black;
+    font-size: 20px;
+    font-family: Georgia;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+}
+.Envio{
+    position: static;
+    padding: 5px;
+    text-align: center;    
+}
+.Envio #correo{
+    width: 300px;
+    height: 30px;
+    padding: 0 6px;
+    font-size:  13px;
+    color:black;
+    outline: none;
+    border: 2px solid #ddd6f3;
+    border-radius: 30px;
+    transition: all 0.6 ease;
+}
+.Envio #en{
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    margin: 0px 0px 0px -50px;
+    padding: 0 8px;
+    font-size:  18px;
+    color: white;
+    outline: none;
+    border: 2px solid #ddd6f3;
+    border-radius: 30px;
+    text-align:center;
+    transition: all 0.6 ease;
+    background-color: black;
+}
+.Envio #en:hover{
+    background-color:  beige;
+    color: black;
+}
+.social{
+    height: auto;
+    font-size: 12px;
+    font-family: Georgia;
+    font-weight: bold;
+    text-align: center;
+    margin: 25px 0px 0px 0px;
+
+}
+.redes{
+    list-style: none;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.redes li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 25px 10px 25px;
+    
+}
+.redes li a img{
+    text-decoration: none;
+    width: 25px;
+    height: auto;
+    padding: 0px 5px 0px 20px;
+    display: block;   
+    border-radius: 100px;
+}
+
